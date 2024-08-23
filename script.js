@@ -10,6 +10,34 @@ let currentImageIndex = 0;
 let images = [];
 
 // Заполняем images  в зависимости от пути
+
+if (window.location.pathname.includes("men1.html")) {
+  images = [
+    "men1_1.jpg", "men1_2.jpg",
+    "men1_3.jpg", "men1_4.jpg",
+    "men1_5.jpg", "men1_6.jpg",
+    "men1_7.jpg", "men1_8.jpg",
+    "men1_9.jpg"
+  ];
+}
+
+if (window.location.pathname.includes("men2.html")) {
+  images = [
+    "men2_1.jpg", "men2_2.jpg",
+    "men2_3.jpg"
+  ];
+}
+
+if (window.location.pathname.includes("men3.html")) {
+  images = [
+    "men3_1.jpg", "men3_2.jpg",
+    "men3_3.jpg", "men3_4.jpg",
+    "men3_5.jpg", "men3_6.jpg",
+    "men3_7.jpg", "men3_8.jpg",
+    "men3_9.jpg"
+  ];
+}
+
 if (window.location.pathname.includes("women1.html")) {
   images = [
     "women1_1.jpg", "women1_2.jpg",
@@ -148,33 +176,6 @@ if (window.location.pathname.includes("family6.html")) {
     "family6_5.jpg", "family6_6.jpg",
     "family6_7.jpg", "family6_8.jpg",
     "family6_9.jpg"
-  ];
-}
-
-if (window.location.pathname.includes("men1.html")) {
-  images = [
-    "men1_1.jpg", "men1_2.jpg",
-    "men1_3.jpg", "men1_4.jpg",
-    "men1_5.jpg", "men1_6.jpg",
-    "men1_7.jpg", "men1_8.jpg",
-    "men1_9.jpg"
-  ];
-}
-
-if (window.location.pathname.includes("men2.html")) {
-  images = [
-    "men2_1.jpg", "men2_2.jpg",
-    "men2_3.jpg"
-  ];
-}
-
-if (window.location.pathname.includes("men3.html")) {
-  images = [
-    "men3_1.jpg", "men3_2.jpg",
-    "men3_3.jpg", "men3_4.jpg",
-    "men3_5.jpg", "men3_6.jpg",
-    "men3_7.jpg", "men3_8.jpg",
-    "men3_9.jpg"
   ];
 }
 
