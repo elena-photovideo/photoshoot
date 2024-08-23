@@ -206,6 +206,15 @@ if (window.location.pathname.includes("creative.html")) {
   ];
 }
 
+if (window.location.pathname.includes("aboutme.html")) {
+  images = [
+    "I1.jpg", "I2.jpg",
+    "I3.jpg", "I4.jpg",
+    "I5.jpg", "I6.jpg"
+  ];
+}
+
+
 // Открытие Lightbox
 galleryLinks.forEach(link => {
   link.addEventListener('click', (event) => {
